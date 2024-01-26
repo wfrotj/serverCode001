@@ -1,6 +1,5 @@
 import Teacher from "../model/Teacher.js";
 import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
 
 const getAllTeachers = async (req, res) => {
   try {
