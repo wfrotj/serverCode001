@@ -1,5 +1,6 @@
 import mongoose, { plugin } from "mongoose";
 import uniqueValidator from "mongoose-unique-validator";
+
 const teacherSchema = new mongoose.Schema({
   username: String,
   passwordHash: String,
